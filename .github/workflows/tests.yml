@@ -1,6 +1,8 @@
 name: Tests
 
 on:
+  push:
+    branches: [ "actions-test" ]
   schedule:
     - cron: "0 0 * * *"
 
